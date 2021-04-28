@@ -1,5 +1,9 @@
 # TravelGuideApp
-![](screenshot/TravelGuide.png)
+
+## Authors:
+Bernard Ekezie & Yuehan Pei
+
+# Project Objective:
 A website where people can post information about things to keep in mind when traveling abroad to various countries.
 
 For example:
@@ -11,4 +15,31 @@ Current users can then choose whether they would like to enter their own thought
 2. Users can post/publish what to expect when traveling to a specific country and then save it in the database.
 3. Users can view existing countries’ information.
 
-Web application still in devlopment phase.
+Homepage
+![Home](screenshot/Home.png)
+Signup page
+![](screenshot/Signup.png)
+Contact page
+![](screenshot/Contact.png)
+Main page
+![](screenshot/Main.png)
+Alert successful user if finds story in story timeline.
+![](screenshot/Yes.png)
+Alert unsuccessful if user finds does not story in story timeline.
+![](screenshot/No.png)
+
+## Instructions to build:
+
+-Clone the repository
+
+Ensure that you have installed locally:
+- Node.js
+- MongoDB
+
+-Do 'npm install' at root. Also cd into the TravelGuide folder and do 'npm install'
+
+-Start backend and frontend servers with 'npm start' in root.
+
+-Go to localhost:3000 to see the website!
+
+Demo video: https://www.youtube.com/watch?v=TCLIWiWJOCc&ab_channel=BernardEkezie
